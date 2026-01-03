@@ -112,9 +112,64 @@ This project demonstrates an end-to-end analytics workflow — from raw data and
 It showcases practical problem-solving skills, business thinking, and data storytelling relevant to real-world healthcare analytics.
 
 ---
+---
 
-## 📎 Project Files
-- SQL scripts for analysis  
-- Power BI dashboard (.pbix)  
-- Jupyter notebook for exploration  
+## 📁 Project Structure
+
+```text
+Hospital_appointment_analysis/
+│
+├── data/
+│   ├── appointments.csv
+│   ├── billing.csv
+│   ├── patients.csv
+│   ├── doctors.csv
+│   └── treatments.csv
+│
+├── screenshots/
+│   ├── dashboard_overview.png
+│   └── dashboard_filter.png
+│
+├── report/
+│   └── Hospital_appointment_analysis_report.pdf
+│
+├── Hospital_appointment_dashboard.pbix
+├── hospital_appointment.ipynb
+├── hospital_appointment_analysis.sql
+├── README.md
+└── LICENSE
+---
+
+## ▶️ How to Run This Project
+
+This project can be executed end-to-end using SQL, Python, and Power BI.
+
+### 1️⃣ SQL Analysis
+- File: `hospital_appointment_analysis.sql`
+- Run queries using PostgreSQL / MySQL
+- Covers:
+  - Appointment status analysis (No-shows, Cancellations, Completed)
+  - Doctor performance
+  - Time-slot and day-wise trends
+  - Operational efficiency metrics
+
+### 2️⃣ Python Data Analysis
+- File: `hospital_appointment.ipynb`
+- Tools used: pandas, matplotlib, seaborn
+- Performs:
+  - Exploratory Data Analysis (EDA)
+  - Data cleaning and transformations
+  - Trend and distribution analysis
+
+### 3️⃣ Power BI Dashboard
+- File: `Hospital_appointment_dashboard.pbix`
+- Steps:
+  1. Open the `.pbix` file in Power BI Desktop
+  2. Load CSV files from the `data/` folder
+  3. Refresh the data model
+  4. Use slicers for:
+     - Appointment Month
+     - Treatment Type
+     - Payment Status
+- View KPIs, trends, and interactive insights
 
