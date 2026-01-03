@@ -173,3 +173,36 @@ This project can be executed end-to-end using SQL, Python, and Power BI.
      - Payment Status
 - View KPIs, trends, and interactive insights
 
+---
+
+## 🧠 Business Questions Answered
+
+This project answers real-world hospital operations and revenue optimization questions:
+
+### 1️⃣ Appointment Status Distribution
+**Question:** What percentage of appointments result in Completed, No-Shows, Cancellations, and Scheduled status?  
+**Insight:** A significant share of appointments do not reach completion, highlighting operational inefficiencies and patient reliability challenges.
+
+### 2️⃣ No-Show Analysis by Time Slot
+**Question:** Which appointment time slots have the highest no-show rates?  
+**Insight:** Certain hours experience disproportionately higher no-shows, indicating opportunities to redesign scheduling and reminder systems.
+
+### 3️⃣ Cancellation Trends by Day of Week
+**Question:** Which days of the week face the highest appointment cancellations?  
+**Insight:** Specific weekdays show higher cancellation rates, enabling better staffing and slot allocation planning.
+
+### 4️⃣ Visit Reason vs No-Show Behavior
+**Question:** Which appointment reasons are most likely to result in no-shows?  
+**Insight:** Follow-up and non-urgent visits exhibit higher no-show tendencies compared to emergency or therapy visits.
+
+### 5️⃣ Demand & Capacity Planning
+**Question:** What is the average number of appointments per day and how does demand change monthly?  
+**Insight:** Appointment demand fluctuates month-over-month, supporting data-driven capacity planning and resource optimization.
+
+### 6️⃣ Doctor Performance Analysis
+**Question:** Which doctors complete the highest number of appointments?  
+**Insight:** Top-performing doctors can be identified for best-practice benchmarking and workload balancing.
+
+---
+
+These insights collectively support **better operational efficiency, improved patient experience, and stronger revenue control**.
