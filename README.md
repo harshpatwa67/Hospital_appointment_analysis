@@ -5,6 +5,17 @@ End-to-end hospital appointment analytics project using SQL and Power BI to anal
 ## 📌 Project Overview
 This project is an end-to-end hospital appointment analytics solution built using SQL and Power BI.  
 The goal is to analyze patient appointment behavior, operational efficiency, doctor performance, and revenue trends to support better decision-making in healthcare operations.
+---
+
+## 📊 Dashboard Overview (Power BI)
+
+### 🔹 Overall Dashboard View
+![Dashboard Overview](screenshots/dashboard%20overview.png)
+
+### 🔹 Dashboard with Filters Applied
+![Dashboard Filters](screenshots/dashboard%20filter.png)
+
+---
 
 ---
 
